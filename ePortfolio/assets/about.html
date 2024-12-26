@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me, Projects, and Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background with Panels -->
+    <div class="background-panels">
+        <div class="panel panel1"><img src="image1.jpg" alt="Image 1"></div>
+        <div class="panel panel2"><img src="image2.jpg" alt="Image 2"></div>
+        <div class="panel panel3"><img src="image3.jpg" alt="Image 3"></div>
+        <div class="panel panel4"><img src="image4.jpg" alt="Image 4"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <!-- About Me Section -->
+        <section id="about" class="box">
+            <h1>About Me</h1>
+            <p>Hello welcome! I am Denzel Vohn Saraus, a Computer Science student who wants to finish his studies. I thrift, eat, sleep, and repeat. I also buy and sell, especially clothes, garments, and other stuff as well.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <div class="box" id="projects">
+            <h1>My Projects</h1>
+            <ul>
+                <li><a href="https://project1-link.com" target="_blank">Project 1: STR3SS: A Trailblazer Game</a></li>
+                <li><a href="https://project2-link.com" target="_blank">Project 2: Grade Calculator</a></li>
+                <li><a href="https://project3-link.com" target="_blank">Project 3: Captcha-Based Website Security</a></li>
+            </ul>
+        </div>        
+
+        <!-- Contact Section -->
+        <section id="contact" class="box">
+            <h1>Contact</h1>
+            <p>If you would like to get in touch, please fill out the form below:</p>
+            
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Back to Home Button -->
+        <a href="index.html" class="button">Back</a>
+    </div>
+</body>
+</html>
